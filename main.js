@@ -42,29 +42,10 @@ function signOut() {
       console.log('User signed out.');
     });
 
-    HideProfileDisplayButton();
 }
 
-function displayProfileHideButton(){
-    let profile = document.getElementById('profile');
-    profile.style.display = "block";
-    
-    let button = document.getElementById('g-signin2');
-    button.style.display = "none";
-    
-    let button_profile = document.getElementById('show-profile');
-    button_profile.style.display = "none";
-}
-
-function HideProfileDisplayButton(){
-    let profile = document.getElementById('profile');
-    profile.style.display = "none";
-
-    let button = document.getElementById('g-signin2');
-    button.style.display = "block";
-
-    let button_profile = document.getElementById('show-profile');
-    button_profile.style.display = "block";
+function refresh() {
+    document.location='https://firstneverrest.github.io/Sign-in-with-Google/'
 }
 
 
