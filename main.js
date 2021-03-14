@@ -45,11 +45,11 @@ function signOut() {
 }
 
 function redirect() {
-    document.location.href = 'http://localhost:5500/google.html';
+    document.location.href = 'https://firstneverrest.github.io/Sign-in-with-Google/google.html';
 }
 
 function back() {
-    document.location.href = 'http://localhost:5500';
+    document.location.href = 'https://firstneverrest.github.io/Sign-in-with-Google/';
 }
 
 function displayProfileHideButton(){
