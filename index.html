@@ -20,14 +20,13 @@
         <div id="g-signin2" class="g-signin2" data-onsuccess="onSignIn"></div>
     
         <div id="profile">
-            <img id="profile__image" src="" alt="user image">
-            <h3 id="profile__name"></h3>
-            <p id="profile__email"></p>
+            <img id="profile__image" src="./placeholder.jpg" alt="user image">
+            <h3 id="profile__name">Name</h3>
+            <p id="profile__email">E-mail</p>
             <button id="signout-button" onclick="signOut()">sign out</button>
         </div>
 
-        <button onclick="redirect()">next</button>
-
+        <button id="refresh-button" onclick="document.location='http://localhost:5500/Sign-in-with-Google/'">refresh</button>
     </div>
    
     <script src="main.js"></script>

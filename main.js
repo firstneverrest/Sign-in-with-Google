@@ -1,3 +1,4 @@
+
 function onSuccess(googleUser) {
     console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
 }
@@ -44,20 +45,15 @@ function signOut() {
     HideProfileDisplayButton();
 }
 
-function redirect() {
-    document.location.href = 'https://firstneverrest.github.io/Sign-in-with-Google/google.html';
-}
-
-function back() {
-    document.location.href = 'https://firstneverrest.github.io/Sign-in-with-Google/';
-}
-
 function displayProfileHideButton(){
     let profile = document.getElementById('profile');
     profile.style.display = "block";
     
     let button = document.getElementById('g-signin2');
     button.style.display = "none";
+    
+    let button_profile = document.getElementById('show-profile');
+    button_profile.style.display = "none";
 }
 
 function HideProfileDisplayButton(){
@@ -66,6 +62,9 @@ function HideProfileDisplayButton(){
 
     let button = document.getElementById('g-signin2');
     button.style.display = "block";
+
+    let button_profile = document.getElementById('show-profile');
+    button_profile.style.display = "block";
 }
 
 
