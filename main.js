@@ -42,7 +42,14 @@ function signOut() {
       console.log('User signed out.');
     });
 
+    HideProfileDisplayButton()
 }
+
+function HideProfileDisplayButton(){
+    let profile = document.getElementById('profile');
+    profile.style.display = "none";
+}
+
 
 function refresh() {
     document.location='https://firstneverrest.github.io/Sign-in-with-Google/'
