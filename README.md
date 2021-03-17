@@ -1,4 +1,4 @@
-# MyArticle-WebApplication
+# Sign in with Google
 ![image](https://github.com/firstneverrest/Sign-in-with-Google/blob/master/sign-in-with-google-thumbnail.jpg)
 
 The web application integrates Google Sign-in project using OAuth 2.0 to access Google APIs.
