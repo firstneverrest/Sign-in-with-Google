@@ -2,7 +2,7 @@
 ![image](https://github.com/firstneverrest/Sign-in-with-Google/blob/master/sign-in-with-google-thumbnail.jpg)
 
 The web application integrates Google Sign-in project using OAuth 2.0 to access Google APIs.
-You can access this web app by [My Sign-in-with-Google](https://firstneverrest.github.io/Sign-in-with-Google/)
+**Demo:** [My Sign-in-with-Google](https://firstneverrest.github.io/Sign-in-with-Google/)
 
 ### Technologies
 ![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
